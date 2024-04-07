@@ -41,10 +41,14 @@ body {
 }
 .social-media {
     margin: 5%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .social-media a {
     margin-right: 10px;
+    
 }
 
 .about {
