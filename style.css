@@ -334,6 +334,18 @@ footer h4{
     margin-left: 20px;
 }
 
+.footer{
+    border-radius: 20px;
+    background-color: #ccc;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+
+
+    
+}
+
 
 
 
@@ -360,16 +372,62 @@ footer h4{
         margin-left: 0;
     }
 }
+@media screen and (max-width: 479px) {
+    .timeline {
+        padding: 35px 5%;
+    }
 
+    .container {
+        grid-template-columns: 1fr;
+        padding: 2rem 20px;
+    }
 
-.footer{
-    border-radius: 20px;
-    background-color: #ccc;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 20px;
+    .inner .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 20px;
+    }
 
+    .skill-box p {
+        font-size: 14px;
+    }
 
-    
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .skill-title h3 {
+        font-size: 16px;
+    }
+
+    .contact-section .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact-links a {
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    footer h4 {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .col .title {
+        padding: 20px 0px 10px 20px;
+    }
+
+    .col .contents {
+        padding: 0px 20px;
+    }
 }
+
+
